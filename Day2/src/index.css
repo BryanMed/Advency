@@ -1,0 +1,44 @@
+@font-face {
+  font-family: christmas;
+  src: url(assets/christmas.otf);
+}
+
+body {
+  background-image: url(assets/christmas_bg.jpg);
+  background-repeat: "no-repeat";
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  width: 50%;
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-color: #f4f0bb;
+  padding: 10%;
+}
+
+h2 {
+  font-family: christmas, "Courier New", Courier, monospace;
+  font-size: 4rem;
+  color: #43291f;
+}
+
+ul {
+  list-style-type: "🎁 ";
+}
+
+li {
+  color: #226f54;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
