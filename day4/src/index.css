@@ -1,0 +1,64 @@
+@font-face {
+  font-family: Christmas;
+  src: url(assets/christmas.otf);
+}
+
+body {
+  background-image: url(assets/christmas_bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  background-color: #f4f0bb;
+  padding: 10%;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: Christmas, "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  color: #bc4749;
+}
+
+.inputRegalo {
+  display: flex;
+}
+
+input {
+  width: 100%;
+  padding: 10px 0;
+  border: 2px solid #226f54;
+  border-radius: 10px;
+}
+
+.inputRegalo button {
+  border-radius: 5px;
+  background-color: #226f54;
+  font-weight: 700;
+  color: #f4f0bb;
+  padding: 0 20px;
+  border: none;
+}
+
+li {
+  font-size: 2rem;
+  list-style: "🌲 ";
+}
+
+li div {
+  display: flex;
+  justify-content: space-between;
+}
+
+li button {
+  background-color: #bc4749;
+  padding: 0 20px;
+  color: #f4f0bb;
+  border-radius: 5px;
+  border: none;
+}
