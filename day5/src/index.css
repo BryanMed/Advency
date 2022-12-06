@@ -1,0 +1,71 @@
+@font-face {
+  font-family: christmas;
+  src: url(assets/MountainsofChristmas-Regular.ttf);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(assets/christmas.jpg);
+  background-size: cover;
+}
+
+#root {
+  background-color: #bc4749;
+  padding: 10%;
+  border: 5px dashed #f2e8cf;
+  border-radius: 10px;
+}
+
+.input-form {
+  display: flex;
+}
+
+input {
+  border: 5px dashed #a7c957;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.input-form button {
+  background-color: #a7c957;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+h1 {
+  font-family: christmas, "Courier New", Courier, monospace;
+  font-size: 5rem;
+  color: #f2e8cf;
+}
+
+li {
+  list-style-type: "🌲 ";
+  font-size: 2rem;
+  color: #f2e8cf;
+}
+
+li div {
+  display: flex;
+  justify-content: space-between;
+}
+
+li button {
+  background-color: #ff0000;
+  border: 2px solid #f2e8cf;
+  color: #f2e8cf;
+  border-radius: 5px;
+}
+
+.removeAll-btn {
+  background-color: #612723;
+  border-radius: 5px;
+  border: #f2e8cf 2px solid;
+  color: #f2e8cf;
+  width: 100%;
+  padding: 0.5rem;
+  font-weight: 700;
+}
