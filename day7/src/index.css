@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Christmas;
+  src: url(assets/christmas.ttf);
+}
+
+body {
+  background-image: url(assets/christmas.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  width: 40%;
+  height: 50%;
+  background-color: #f4f0bb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+h1 {
+  font-family: Christmas, "Courier New", Courier, monospace;
+  font-size: 6rem;
+  color: #da2c38;
+}
+
+.input-form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+input {
+  padding: 0.5rem;
+  width: 60%;
+  border-radius: 5px;
+  border: 3px dashed #da2c38;
+  font-size: 2rem;
+}
+
+.input-form button {
+  background-color: #a7c957;
+  border: none;
+  border-radius: 5px;
+}
+
+li {
+  font-size: 2rem;
+  list-style: "❅ ";
+  margin: 0.5rem;
+}
+
+span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+span button,
+.deleteAll {
+  background-color: #da2c38;
+  color: #f4f0bb;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+
+.empty {
+  background-color: #a7c957;
+  border-radius: 10px;
+  padding: 1rem 3rem;
+}
