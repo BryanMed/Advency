@@ -1,0 +1,74 @@
+@font-face {
+  font-family: Christmas;
+  src: url(assets/Candcu__.ttf);
+}
+
+body {
+  background-image: url(assets/kira-auf-der-heide-IPx7J1n_xUc-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: antiquewhite;
+}
+
+#root {
+  background-color: #226f54;
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: fit-content;
+  border-radius: 1rem;
+}
+
+.regalosForm {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputs > button {
+  background-color: #a7c957;
+  color: darkslateblue;
+}
+
+span {
+  display: flex;
+
+  align-items: center;
+  gap: 1rem;
+}
+
+input {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+h1 {
+  font-family: Christmas, "Courier New", Courier, monospace;
+  color: #da2c38;
+  font-size: 5rem;
+  text-align: center;
+}
+
+img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+button {
+  padding: 1rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: #da2c38;
+  color: antiquewhite;
+}
